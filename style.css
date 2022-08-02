@@ -1,0 +1,63 @@
+h1{
+    background-color: mediumturquoise;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding:  20px 0;
+}
+.heading{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    color:royalblue;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+.container p::first-letter{
+    font-size: 50px;
+    float: left;
+
+}
+
+.container{
+    max-width: 80vw;
+    margin: auto;
+}
+.card{
+    width: 300px;
+    min-height: 400px;
+    /* background-color: seagreen; */
+    box-shadow: 0 0 5px 5px rgba(20, 20, 20, 0.15);
+}
+.image section{
+}
+img{
+
+    width: 300px;
+}
+.card .content-section h3{
+padding: 10px;
+}
+.card .content-section{
+    color:blue;
+    font-size: 10px;
+}
+button{
+    outline: none;
+    border: 2px solid ;
+    color: blue;
+    background-color: greenyellow;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    border-radius: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
